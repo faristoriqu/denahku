@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/denah"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/jalan"
+        android:layout_width="218dp"
+        android:layout_height="367dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="108dp"
+        android:rotation="-14"
+        android:src="@drawable/jalan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/satu"
+        android:layout_width="50dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="356dp"
+        android:rotation="-14"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/dua"
+        android:layout_width="50dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="375dp"
+        android:rotation="-14"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/satu" />
+
+    <ImageView
+        android:id="@+id/tiga"
+        android:layout_width="50dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="393dp"
+        android:rotation="-14"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/dua" />
+
+    <ImageView
+        android:id="@+id/empat"
+        android:layout_width="50dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="55dp"
+        android:rotation="-14"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="@id/satu"
+        app:layout_constraintLeft_toLeftOf="@id/tiga" />
+
+    <ImageView
+        android:id="@+id/lima"
+        android:layout_width="50dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="72dp"
+        android:rotation="-14"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="@id/satu"
+        app:layout_constraintLeft_toLeftOf="@id/empat" />
+
+    <ImageView
+        android:id="@+id/enam"
+        android:layout_width="50dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="90dp"
+        android:rotation="-14"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="@id/satu"
+        app:layout_constraintLeft_toLeftOf="@id/lima" />
+
+    <ImageView
+        android:id="@+id/tujuh"
+        android:layout_width="60dp"
+        android:layout_height="95dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="100dp"
+        android:rotation="-16"
+        android:src="@drawable/belok"
+        app:layout_constraintBottom_toBottomOf="@id/satu"
+        app:layout_constraintLeft_toLeftOf="@id/enam" />
+
+    <ImageView
+        android:id="@+id/delapan"
+        android:layout_width="40dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginBottom="115dp"
+        android:rotation="-16"
+        android:src="@drawable/atas"
+        app:layout_constraintBottom_toBottomOf="@id/satu"
+        app:layout_constraintLeft_toLeftOf="@id/tujuh" />
+    <ImageView
+        android:id="@+id/sembilan"
+        android:layout_width="37dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="115dp"
+        android:rotation="-16"
+        android:src="@drawable/atas"
+        app:layout_constraintBottom_toBottomOf="@id/satu"
+        app:layout_constraintLeft_toLeftOf="@id/delapan" />
+
+    <ImageView
+        android:id="@+id/sepuluh"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="115dp"
+        android:rotation="30"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="@id/satu"
+        app:layout_constraintLeft_toLeftOf="@id/sembilan" />
+    <ImageView
+        android:id="@+id/sebelas"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginBottom="116dp"
+        android:rotation="30"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="@id/satu"
+        app:layout_constraintLeft_toLeftOf="@id/sepuluh" />
+    <ImageView
+        android:id="@+id/duabelas"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginBottom="117dp"
+        android:rotation="30"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="@id/satu"
+        app:layout_constraintLeft_toLeftOf="@id/sebelas" />
+
+    <ImageView
+        android:id="@+id/tigabelas"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="83dp"
+        android:rotation="-15"
+        android:src="@drawable/persegipanjang"
+        app:layout_constraintBottom_toBottomOf="@id/satu"
+        app:layout_constraintLeft_toLeftOf="@id/duabelas" />
+
+    <ImageView
+        android:id="@+id/empatbelas"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="18dp"
+        android:rotation="-15"
+        android:src="@drawable/jajargenjang"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tigabelas" />
+    <ImageView
+        android:id="@+id/limabelas"
+        android:layout_width="75dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginRight="21dp"
+        android:rotation="-15"
+        android:src="@drawable/jajargenjang"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/empatbelas" />
+    <ImageView
+        android:id="@+id/enambelas"
+        android:layout_width="70dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="24dp"
+        android:rotation="-15"
+        android:src="@drawable/jajargenjang"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/limabelas" />
+
+    <ImageView
+        android:id="@+id/tujuhbelas"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="3dp"
+        android:rotation="-58"
+        android:src="@drawable/persegi"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/enambelas" />
+    <ImageView
+        android:id="@+id/delapanbelas"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="3dp"
+        android:rotation="-58"
+        android:src="@drawable/persegi"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tujuhbelas" />
+
+    <ImageView
+        android:id="@+id/sembilanbelas"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginRight="20dp"
+        android:rotation="-10"
+        android:src="@drawable/bawah"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/delapanbelas" />
+
+    <ImageView
+        android:id="@+id/duapuluh"
+        android:layout_width="53dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="83dp"
+        android:rotation="78"
+        android:src="@drawable/jajargenjang"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/delapanbelas"/>
+
+    <ImageView
+        android:id="@+id/duapuluhsatu"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginRight="23dp"
+        android:rotation="78"
+        android:src="@drawable/jajargenjang"
+        app:layout_constraintRight_toRightOf="@id/duapuluh"
+        app:layout_constraintTop_toTopOf="@id/delapanbelas"/>
+
+    <ImageView
+        android:id="@+id/duapuluhdua"
+        android:layout_width="48dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="21dp"
+        android:rotation="78"
+        android:src="@drawable/jajargenjang"
+        app:layout_constraintRight_toRightOf="@id/duapuluhsatu"
+        app:layout_constraintTop_toTopOf="@id/delapanbelas"/>
+
+    <ImageView
+        android:id="@+id/duapuluhtiga"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginRight="28dp"
+        android:rotation="-10"
+        android:src="@drawable/cangkupan"
+        app:layout_constraintRight_toRightOf="@id/duapuluhdua"
+        app:layout_constraintTop_toTopOf="@id/delapanbelas" />
+
+    <ImageView
+        android:id="@+id/duapuluhempat"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="25dp"
+        android:rotation="-17"
+        android:src="@drawable/sebelahjalanbawah"
+        app:layout_constraintRight_toRightOf="@id/duapuluhtiga"
+        app:layout_constraintTop_toTopOf="@id/delapanbelas"/>
+
+    <ImageView
+        android:id="@+id/duapuluhlima"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="70dp"
+        android:rotation="-16"
+        android:src="@drawable/jalantengah"
+        app:layout_constraintBottom_toBottomOf="@id/duapuluhempat"
+        app:layout_constraintLeft_toLeftOf="@id/jalan"/>
+
+    <ImageView
+        android:id="@+id/duapuluhenam"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="70dp"
+        android:rotation="-18"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="@id/duapuluhempat"
+        app:layout_constraintLeft_toLeftOf="@id/duapuluhlima" />
+
+    <ImageView
+        android:id="@+id/duapuluhtujuh"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginBottom="86dp"
+        android:rotation="-18"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="@id/duapuluhempat"
+        app:layout_constraintLeft_toLeftOf="@id/duapuluhenam" />
+
+    <ImageView
+        android:id="@+id/duapuluhdelapan"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="100dp"
+        android:rotation="-17"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="@id/duapuluhempat"
+        app:layout_constraintLeft_toLeftOf="@id/duapuluhtujuh" />
+
+    <ImageView
+        android:id="@+id/lapangan"
+        android:layout_width="45dp"
+        android:layout_height="95dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="27dp"
+        android:rotation="-14"
+        android:src="@drawable/lapangan"
+        app:layout_constraintLeft_toLeftOf="@id/duapuluhdelapan"
+        app:layout_constraintTop_toBottomOf="@id/delapan" />
+
+    <ImageView
+        android:id="@+id/duapuluhsembilan"
+        android:layout_width="35dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="34dp"
+        android:rotation="32"
+        android:src="@drawable/persegi"
+        app:layout_constraintLeft_toLeftOf="@id/lapangan"
+        app:layout_constraintTop_toBottomOf="@id/sembilan" />
+    <ImageView
+        android:id="@+id/tigapuluh"
+        android:layout_width="35dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="34dp"
+        android:rotation="32"
+        android:src="@drawable/persegi"
+        app:layout_constraintLeft_toLeftOf="@id/duapuluhsembilan"
+        app:layout_constraintTop_toBottomOf="@id/sembilan" />
+    <ImageView
+        android:id="@+id/tigapuluhsatu"
+        android:layout_width="35dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="34dp"
+        android:rotation="32"
+        android:src="@drawable/persegi"
+        app:layout_constraintLeft_toLeftOf="@id/tigapuluh"
+        app:layout_constraintTop_toBottomOf="@id/sembilan" />
+    <ImageView
+        android:id="@+id/tigapuluhdua"
+        android:layout_width="35dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="36dp"
+        android:rotation="32"
+        android:src="@drawable/persegi"
+        app:layout_constraintLeft_toLeftOf="@id/lapangan"
+        app:layout_constraintTop_toTopOf="@id/duapuluhsembilan" />
+    <ImageView
+        android:id="@+id/tigapuluhtiga"
+        android:layout_width="35dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="36dp"
+        android:rotation="32"
+        android:src="@drawable/persegi"
+        app:layout_constraintLeft_toLeftOf="@id/tigapuluhdua"
+        app:layout_constraintTop_toTopOf="@id/tigapuluh" />
+    <ImageView
+        android:id="@+id/tigapuluhempat"
+        android:layout_width="35dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="36dp"
+        android:rotation="32"
+        android:src="@drawable/persegi"
+        app:layout_constraintLeft_toLeftOf="@id/tigapuluhtiga"
+        app:layout_constraintTop_toTopOf="@id/tigapuluhsatu" />
+</androidx.constraintlayout.widget.ConstraintLayout>
